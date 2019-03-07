@@ -72,7 +72,7 @@ public class Car {
 
 
         // to upload to GITHUB - it is necessary to Commit and Push.
-        // - VSC/Commit
+        // - VSC/Commit (or CNTRL+K
         // - VSC/GIT/Push
 
 

@@ -42,8 +42,6 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "model='" + model + '\'' +
-                ", age=" + age +
-                ", color='" + color + '\'' +
                 '}';
     }
 
@@ -60,12 +58,17 @@ public class Car {
     System.out.println(single.get(0).model);
 
 
-    LinkedHashSet<Car> triple = new LinkedHashSet<>();
+    LinkedHashSet<Car> triple = new LinkedHashSet<>();  // чудова заготовка на кошик у нашій аппці
+
     triple.add(car1);
-    triple.add(car2);
+    triple.add(car1);
     triple.add(car3);
 
-    System.out.println(triple);
+
+    System.out.println(triple);     // тут використовує одверайднутий метод toString
+
+    for (Car model : triple)
+        System.out.println(model.model);   // це кльово працює.
 
 
 

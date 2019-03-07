@@ -72,7 +72,11 @@ public class Car {
 
 // this was edited from web interface
 
-        // after I make some changes and apply it
+        // after I make some changes and apply it - VSC/GIT/Push
+
+        // and I ADD ANOTHER COMMENT
+
+        System.out.println("Hi");
 
     }
 

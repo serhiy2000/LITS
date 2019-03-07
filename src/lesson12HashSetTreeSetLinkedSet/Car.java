@@ -72,9 +72,10 @@ public class Car {
 
 
         // to upload to GITHUB - it is necessary to Commit and Push.
-        // - VSC/Commit (or CNTRL+K
-        // - VSC/GIT/Push
+        // - VCS/Commit (or CTRL+K)
+        // - VCS/GIT/Push (or CTRL+SHIFT+K)
 
+        // to download to IDEA - VCS/Update Project (or CTRL+T)
 
     }
 

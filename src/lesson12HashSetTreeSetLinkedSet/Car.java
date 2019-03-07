@@ -72,6 +72,8 @@ public class Car {
 
 // this was edited from web interface
 
+        // after I make some changes and apply it
+
     }
 
 // в один момент в одному гаражі може бути одна машина, в іншому може бути три машини

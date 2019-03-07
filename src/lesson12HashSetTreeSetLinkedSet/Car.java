@@ -71,9 +71,9 @@ public class Car {
         System.out.println(model.model);   // це кльово працює.
 
 
-        // to upload to GITHUB - it is necessary to Commit and Push.
-        // - VCS/Commit (or CTRL+K)
-        // - VCS/GIT/Push (or CTRL+SHIFT+K)
+        // to upload to GITHUB - it is necessary to Commit and Push in two steps.
+        // 1. VCS/Commit (or CTRL+K)
+        // 2. VCS/GIT/Push (or CTRL+SHIFT+K)
 
         // to download to IDEA - VCS/Update Project (or CTRL+T)
 

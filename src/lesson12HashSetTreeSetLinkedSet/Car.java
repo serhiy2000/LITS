@@ -70,7 +70,7 @@ public class Car {
     for (Car model : triple)
         System.out.println(model.model);   // це кльово працює.
 
-
+// this was edited from web interface
 
     }
 

@@ -70,13 +70,11 @@ public class Car {
     for (Car model : triple)
         System.out.println(model.model);   // це кльово працює.
 
-// this was edited from web interface
 
-        // after I make some changes and apply it - VSC/GIT/Push
+        // to upload to GITHUB - it is necessary to Commit and Push.
+        // - VSC/Commit
+        // - VSC/GIT/Push
 
-        // and I ADD ANOTHER COMMENT
-
-        System.out.println("Hi");
 
     }
 

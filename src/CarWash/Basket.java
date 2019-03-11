@@ -92,13 +92,13 @@ public class Basket {
             while (iterator.hasNext()) {
 
                 Basket currentItem = iterator.next();
-                if (currentItem.getVehicle() == basketItem.getVehicle() & currentItem.getService() == basketItem.getService()) {
+                if (currentItem.getVehicle().equals(basketItem.getVehicle()) & currentItem.getService().equals( basketItem.getService())) {
                     int quantity = currentItem.getQuantity() + 1;
 
                     check.remove(currentItem);
                     Basket checkItem = new Basket(basketItem.getVehicle(), basketItem.getService(), basketItem.getPrice(), quantity);
                     check.add(checkItem);
-                    System.out.println("Now in check we have "+check);
+                    System.out.println("Now in checkout we have "+check);
                 }
 
 

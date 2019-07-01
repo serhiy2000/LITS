@@ -1,11 +1,10 @@
-package lesson18;
+package lesson18LoremIpsum;
 
-import java.io.FileReader;
 import java.util.*;
 
 public class Application {
     public static void main(String[] args) throws Exception {
-//        FileReader textFile = new FileReader("/home/loco/IdeaProjects/LITS/src/lesson18/text.txt");
+//        FileReader textFile = new FileReader("/home/loco/IdeaProjects/LITS/src/lesson18LoremIpsum/text.txt");
 //        Scanner scanner = new Scanner(textFile);
 //        String inputText = scanner.nextLine();
 //        textFile.close();

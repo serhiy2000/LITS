@@ -25,7 +25,7 @@ public class Exam {
 
         // question 6 = answer "3".
         System.out.println("\nQuestion 6");
-        boolean a= true;
+        boolean a = true;
         boolean b = false;
         boolean c = true;
 

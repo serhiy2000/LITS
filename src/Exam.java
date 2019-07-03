@@ -21,7 +21,6 @@ public class Exam {
         do {
             System.out.println("i="+i);
             i++;
-        } while (i<32767);  // question. 5 - will go one iteration.
 
         // question 6 = answer "3".
         System.out.println("\nQuestion 6");
@@ -34,7 +33,7 @@ public class Exam {
                 if (c==true){
                     System.out.println("1");
                 } else System.out.println("2");
-            }else  if (a&&(b=c)){
+            }else  if (a&&(b==c)){
                 System.out.println("3");
             } else {
                 System.out.println("4");
